@@ -5,13 +5,13 @@ import Home from './Home';
 function App() {
   return (
     <Router>
-      <Route path ='/'>
+      <Route exact path ='/'>
 
       <SignIn/>
       </Route>
-      {/* <Route exact path='/'>
+      <Route exact path='/Home'>
         <Home></Home>
-      </Route> */}
+      </Route>
 
     </Router>
   );
