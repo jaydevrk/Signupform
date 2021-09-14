@@ -59,7 +59,7 @@ export default function SignIn() {
   
   const handleSubmit =(e)=>{
     e.preventDefault()
-    axios.post('http://localhost:4000/signup',{Email,mobile,password})
+    axios.post('http://localhost:4000',{Email,mobile,password})
     // .then(()=>{
     //    console.log('ready');
     
